@@ -1,0 +1,56 @@
+{
+    "key": "group_633667b9b820e",
+    "title": "Page Fields",
+    "fields": [
+        {
+            "key": "field_633667ba0f9d7",
+            "label": "Header Paper Background",
+            "name": "header_paper_bg",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "blank": "Blank",
+                "blank-circle-left": "Blank w\/ circle holes on the left",
+                "blank-circle-top": "Blank w\/ circle holes on top",
+                "blank-square-top": "Blank w\/ square holes on top",
+                "graph": "Graph Paper",
+                "lined-square-left": "Lined w\/ square holes on the left",
+                "old-curled-corners": "Old w\/ curled corners",
+                "old-crumpled": "Old and crumpled"
+            },
+            "default_value": "blank",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1665451098
+}
